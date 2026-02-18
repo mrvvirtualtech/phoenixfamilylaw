@@ -26,7 +26,6 @@ export default function Page() {
         <ContactSection />
       </main>
       <Footer />
-      {/*Hello World!*/}
     </>
   )
 }
