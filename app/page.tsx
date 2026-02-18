@@ -16,10 +16,10 @@ export default function Page() {
       <Navbar />
       <main>
         <Hero />
-        <AboutSection />
+        <AboutSection />        
+        <AttorneysSection />
         <PracticeAreas />
         <ProcessSection />
-        <AttorneysSection />
         <TestimonialsSection />
         <BlogSection />
         <FaqSection />
