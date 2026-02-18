@@ -1,14 +1,16 @@
 import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 export function Hero() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src="/images/hero-bg.jpg"
           alt=""
-          className="h-full w-full object-cover"
+          fill
+          className="object-cover"
         />
         <div className="absolute inset-0 bg-background/85" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-transparent to-background" />
@@ -22,7 +24,7 @@ export function Hero() {
         </p>
         <h1 className="font-serif text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
           <span className="text-balance">
-            PHOENIX{" "}
+            LCW{" "}
             <span className="text-primary">{"Family Law"}</span>
           </span>
         </h1>
