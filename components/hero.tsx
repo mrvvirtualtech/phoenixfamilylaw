@@ -1,16 +1,14 @@
 import { ArrowRight } from "lucide-react"
-import Image from "next/image"
 
 export function Hero() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
-        <Image
+        <img
           src="/images/hero-bg.jpg"
           alt=""
-          fill
-          className="object-cover"
+          className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-background/85" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-transparent to-background" />

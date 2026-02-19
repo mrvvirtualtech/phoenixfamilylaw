@@ -1,15 +1,14 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 import { Menu, X, Phone } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 const navLinks = [
-  
-  { label: "Home", href: "#home" },
+  { label: "Home", href: "#" },
   { label: "About", href: "#about" },
   { label: "Practice Areas", href: "#practice-areas" },
+  
   { label: "Testimonials", href: "#testimonials" },
   { label: "Blog", href: "#blog" },
   { label: "FAQ", href: "#faq" },
@@ -24,7 +23,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
-          <Image
+          <img
             src="/images/pfl-logo-nav.png"
             alt="Phoenix Family Law logo"
             className="h-20 w-auto"

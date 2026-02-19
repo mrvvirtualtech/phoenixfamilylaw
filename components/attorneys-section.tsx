@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const attorneys = [
   {
     name: "Kimberly L. Farias",
@@ -49,12 +47,10 @@ export function AttorneysSection() {
               className="group overflow-hidden rounded-sm border border-border bg-card transition-all hover:border-primary/30"
             >
               <div className="aspect-[4/5] overflow-hidden">
-                <Image
+                <img
                   src={attorney.image}
                   alt={`Portrait of ${attorney.name}`}
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
               <div className="p-8">
