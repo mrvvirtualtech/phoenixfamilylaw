@@ -108,7 +108,7 @@ export function PracticeAreas() {
             </span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            From negotiated settlements to courtroom advocacy, LCW Family Law
+            From negotiated settlements to courtroom advocacy, Phoenix Family Law Group
             provides steady guidance at every stage of the legal process.
           </p>
         </div>

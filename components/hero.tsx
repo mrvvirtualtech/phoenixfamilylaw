@@ -22,8 +22,8 @@ export function Hero() {
         </p>
         <h1 className="font-serif text-4xl font-bold leading-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
           <span className="text-balance">
-            LCW{" "}
-            <span className="text-primary">{"Family Law"}</span>
+            PHOENIX{" "}
+            <span className="text-primary">{"Family Law Group"}</span>
           </span>
         </h1>
         <hr></hr>
@@ -39,7 +39,7 @@ export function Hero() {
 
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
           Family law matters often arise during the most difficult moments of
-          life. At LCW Family Law, we believe these moments are the beginning
+          life. At Phoenix Family Law Group, we believe these moments are the beginning
           of something new. Like the phoenix, families can rise from challenging
           circumstances stronger, clearer, and better prepared for the future.
         </p>

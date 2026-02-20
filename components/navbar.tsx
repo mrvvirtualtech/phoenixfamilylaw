@@ -24,8 +24,8 @@ export function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-3">
           <img
-            src="/images/lcw-family-law-logo.png"
-            alt="LCW Family Law logo"
+            src="/images/pfl-logo-nav.png"
+            alt="Phoenix Family Law Group logo"
             className="h-20 w-auto"
           />
         </a>
