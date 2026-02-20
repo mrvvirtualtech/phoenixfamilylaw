@@ -33,7 +33,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3">
               <span className="font-serif text-xl font-bold tracking-wide text-primary">
-                PHOENIX
+                LCW
               </span>
               <span className="font-sans text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground">
                 Family Law
@@ -115,7 +115,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Phoenix Family Law. All rights
+            &copy; {new Date().getFullYear()} LCW Family Law. All rights
             reserved.
           </p>
           <div className="flex gap-6">

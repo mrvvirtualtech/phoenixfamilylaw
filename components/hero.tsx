@@ -39,7 +39,7 @@ export function Hero() {
 
         <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
           Family law matters often arise during the most difficult moments of
-          life. At Phoenix Family Law, we believe these moments are the beginning
+          life. At LCW Family Law, we believe these moments are the beginning
           of something new. Like the phoenix, families can rise from challenging
           circumstances stronger, clearer, and better prepared for the future.
         </p>

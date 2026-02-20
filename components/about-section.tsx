@@ -46,7 +46,7 @@ export function AboutSection() {
         {/* Section header */}
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-primary">
-            Why Choose Phoenix Family Law
+            Why Choose LCW Family Law
           </p>
           <h2 className="mt-4 font-serif text-3xl font-bold text-foreground sm:text-4xl lg:text-5xl">
             <span className="text-balance">
@@ -88,7 +88,7 @@ export function AboutSection() {
             }
           </blockquote>
           <p className="mt-4 text-sm font-medium uppercase tracking-wider text-primary">
-            Phoenix Family Law
+            LCW Family Law
           </p>
         </div>
       </div>
